@@ -15,12 +15,8 @@ try:
 except ImportError:
 	print("\n[!] Error: JSON module is missed Please install it use command: pip install simplejson")
 	exit(1)
-os.system("cls||clear")
+os.system("clear")
 ####=COLORS=########
-cyan = '\033[1;37m' ##>>White
-rd = '\033[1;31m' ##>Red
-gr = '\033[1;32m' ##>Green
-yellow = '\033[1;33m' ##>Yallow
 Green="\033[1;33m"
 Blue="\033[1;34m"
 Grey="\033[1;30m"
@@ -111,6 +107,31 @@ def flarekiller(URL,noinfo=None):
 		print(unknown7 + "\n[!] Error [404] Server Not Found!")
 		exit(1)
 	try:
+		print("        "+unknown9+"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM")
+		print("        "+unknown9+"MMMMMMMMMMNKWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM")
+		print("        "+unknown9+"MMMMMMMMMNc.dWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM")
+		print("        "+unknown9+"MMMMMMMMWd. .kWMMMMMMMMMMMMMMMMMMMMMMW0KMMMMMMMMMM")
+		print("        "+unknown14+"MMMMMMMMk:;. 'OMMMMMMMMMMMMMMMMMMMMMWx.,0MMMMMMMMM")
+		print("        "+unknown14+"MMMMMMMK:ok.  ,0MMMMMMMMMMMMMMMMMMMWO. .cXMMMMMMMM")
+		print("        "+unknown14+"MMMMMMNl:KO.   ;KWNXK00O0000KXNWMMWO' .c;dWMMMMMMM")
+		print("        "+unknown14+"MMMMMMx,xNk.    .;'...    ....';:l:.  ,0l,0MMMMMMM")
+		print("        "+unknown14+"MMMMMK;,l;. .,:cc:;.                  .dx,lWMMMMMM")
+		print("        "+unknown14+"MMMMWo    ,dKWMMMMWXk:.      .cdkOOxo,. ...OMMMMMM")
+		print("        "+unknown12+"MMMM0'   cXMMWKxood0WWk.   .lkONMMNOOXO,   lWMMMMM")
+		print("        "+unknown12+"MMMWl   ;XMMNo.    .lXWd. .dWk;;dd;;kWM0'  '0MMMMM")
+		print("        "+unknown12+"kxko.   lWMMO.      .kMO. .OMMK;  .kMMMNc   oWMMMM")
+		print("        "+unknown12+"X0k:.   ;KMMXc      :XWo  .dW0c,lo;;xNMK,   'xkkk0")
+		print("        "+unknown12+"kko'     :KMMNkl::lkNNd.   .dkdKWMNOkXO,    .lOKNW")
+		print("        "+unknown12+"0Kk:.     .lOXWMMWN0d,       'lxO0Oko;.     .ckkOO")
+		print("        "+unknown8+"kkkdodo;.    .,;;;'.  .:ooc.     .        ...ck0XN")
+		print("        "+unknown8+"0XWMMMMWKxc'.          ;dxc.          .,cxKK0OkkOO")
+		print("        "+unknown8+"MMMMMMMMMMMN0d:'.  .'        .l'  .;lxKWMMMMMMMMMN")
+		print("        "+unknown8+"MMMMMMMMMMMMMMMN0xo0O:,;;;;;;xN0xOXWMMMMMMMMMMMMMM")
+		print("        "+unknown8+"MMMMMMMMMMMMMMMMMMMMMMWWWWWMMMMMMMMMMMMMMMMMMMMMMM")
+		print("        "+unknown13+"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM")
+		print("        "+unknown13+"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM")
+		print("        "+unknown13+"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM")
+		print("        "+unknown13+"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM")
 		print(unknown8+"\n["+unknown9+"~"+unknown10+"]"+unknown8+" Analysis "+unknown9+"Website[ "+unknown10+URL+unknown8+" ]"+unknown9+"..."+unknown10)
 		DATA = {"cfS":domain}
 		headers = {"User-agent":"FireFox"}
