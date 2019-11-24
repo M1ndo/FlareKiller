@@ -9,7 +9,9 @@ python2 flarekiller.py
 ```
 
 ## Requirements :
+```
 > requests
 > simplejson
+```
 
-## Author: __ybenel__
+# Author: __ybenel__
