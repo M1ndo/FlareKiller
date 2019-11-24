@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # Date 27/04/2019
-# Created by Younes Benelhaj
+# Created by r2dr0dn
 
 # Modules
 import sys,os,re,socket
@@ -196,7 +196,7 @@ def usage():
     print("        "+unknown13+"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM")
     print("        "+unknown13+"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM")
     print("        "+Blue+"                   "+unknown+"["+unknown15+"FlareKiller"+unknown+"]"+unknown+"         ")
-    print("     "+purple+"             "+unknown+"["+unknown9+"Created By Benelhaj_younes"+unknown+"]"+unknown+"    "+Reset+"\n")
+    print("     "+purple+"             "+unknown+"["+unknown9+"  Created By r2dr0dn"+unknown+"]"+unknown+"    "+Reset+"\n")
     print(unknown2 + "Usage : \n "+unknown9+"python2 flarekiller.py <Website Url> \n "+unknown5+"Examples\n "+unknown7+"python2 flarekiller.py https://google.com \n "+cyan+"python2 flarekiller.py https://google.com noinfo")
     exit(1)
 if len(sys.argv) <2:
