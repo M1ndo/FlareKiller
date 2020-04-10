@@ -144,7 +144,7 @@ def flarekiller(URL,noinfo=None):
                         print(unknown2+"  ["+unknown3+"!"+unknown4+"]"+unknown5+" CloudFlare "+unknown6+"STATUS: "+unknown7+" Disabled"+unknown7+"!"+unknown8)
                         print(unknown8+"  ["+unknown9+"!"+unknown10+"]"+unknown11+" This Website Not Using "+unknown12+"CloudFlare"+unknown13+" Security"+unknown14+" !!!"+unknown15)
                         print(cyan+"====================================================")
-                        print(Green+"["+Blue+"+"+Grey+"]"+yello+" IP: "+Red+fakeIP+purple)
+                        print(Green+"["+Blue+"+"+Grey+"]"+yellow+" IP: "+Red+fakeIP+purple)
                         if noinfo==None:
                                 print(Light+"["+cyan+"+"+Light+"]"+cyan+" [ GEOIP INFO ]:"+Light+"======"+cyan)
                                 getINFO(fakeIP)
