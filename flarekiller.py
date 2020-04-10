@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # Date 27/04/2019
-# Created by ybenel
+# Created by r2dr0dn
 
 # Modules
 import sys,os,re,socket
@@ -144,7 +144,7 @@ def flarekiller(URL,noinfo=None):
                         print(unknown2+"  ["+unknown3+"!"+unknown4+"]"+unknown5+" CloudFlare "+unknown6+"STATUS: "+unknown7+" Disabled"+unknown7+"!"+unknown8)
                         print(unknown8+"  ["+unknown9+"!"+unknown10+"]"+unknown11+" This Website Not Using "+unknown12+"CloudFlare"+unknown13+" Security"+unknown14+" !!!"+unknown15)
                         print(cyan+"====================================================")
-                        print(Green+"["+Blue+"+"+Grey+"]"+yello+" IP: "+Red+fakeIP+purple)
+                        print(Green+"["+Blue+"+"+Grey+"]"+yellow+" IP: "+Red+fakeIP+purple)
                         if noinfo==None:
                                 print(Light+"["+cyan+"+"+Light+"]"+cyan+" [ GEOIP INFO ]:"+Light+"======"+cyan)
                                 getINFO(fakeIP)
@@ -196,7 +196,7 @@ def usage():
     print("        "+unknown13+"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM")
     print("        "+unknown13+"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM")
     print("        "+Blue+"                   "+unknown+"["+unknown15+"FlareKiller"+unknown+"]"+unknown+"         ")
-    print("     "+purple+"             "+unknown+"["+unknown9+"  Created By ybenel"+unknown+"]"+unknown+"    "+Reset+"\n")
+    print("     "+purple+"             "+unknown+"["+unknown9+"  Created By r2dr0dn"+unknown+"]"+unknown+"    "+Reset+"\n")
     print(unknown2 + "Usage : \n "+unknown9+"python2 flarekiller.py <Website Url> \n "+unknown5+"Examples\n "+unknown7+"python2 flarekiller.py https://google.com \n "+cyan+"python2 flarekiller.py https://google.com noinfo")
     exit(1)
 if len(sys.argv) <2:

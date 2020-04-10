@@ -3,7 +3,7 @@
 
 # Installation : 
 ```bash
-git clone https://github.com/m1ndo/FlareKiller.git
+git clone https://github.com/r2dr0dn/FlareKiller.git
 cd FlareKiller
 python2 flarekiller.py
 ```
@@ -14,4 +14,4 @@ python2 flarekiller.py
 > simplejson
 ```
 
-# Author: __ybenel__
+# Author: __r2dr0dn__
